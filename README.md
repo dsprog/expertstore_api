@@ -4,6 +4,8 @@
 * Back-end [laravel com sactum](https://laravel.com) para a parte de api e login
 * Front-end [Vue Js](https://vuejs.org) e [Pinia](https://pinia.vuejs.org)
 
+  <img src="https://skillicons.dev/icons?i=git,laravel,vuejs,pinia" />
+
 ## Status
 - [x] Tarefa 1
 - [ ] Tarefa 2
