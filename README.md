@@ -6,8 +6,10 @@
 
 ## Desenvolvedor
  
-- Daniel Henrique dos Santos Oliveira
-- E-mail: [dsprog@gmail.com](dsprog@gmail.com)
-- Site: [https://dsprog.com.br](https://dsprog.com.br)
+Daniel Henrique dos Santos Oliveira
+
+E-mail: [dsprog@gmail.com](dsprog@gmail.com)
+
+Site: [https://dsprog.com.br](https://dsprog.com.br)
 
 *** fim 
