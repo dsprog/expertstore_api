@@ -1,8 +1,8 @@
 # Api + VueJs: Sistema de produtos
 
 * Sistema desenvolvido para estudo baseda no curso da [codeExperts](https://codeexperts.com.br)
-* O sistema o [laravel com sactum](https://laravel.com) para a parte de api e login
-* E [Vue Js](https://vuejs.org) para o front-end
+* Back-end [laravel com sactum](https://laravel.com) para a parte de api e login
+* Front-end [Vue Js](https://vuejs.org) e [Pinia](https://pinia.vuejs.org)
 
 ## Desenvolvedor
  
