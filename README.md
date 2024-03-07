@@ -11,8 +11,8 @@
 
 ## Desenvolvedor
  
-Daniel Henrique dos Santos Oliveira
-E-mail: [dsprog@gmail.com](dsprog@gmail.com)
+Daniel Henrique dos Santos Oliveira<br />
+E-mail: [dsprog@gmail.com](dsprog@gmail.com)<br />
 Site: [https://dsprog.com.br](https://dsprog.com.br)
 
 *** fim 
