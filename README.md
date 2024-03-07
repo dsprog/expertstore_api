@@ -5,9 +5,9 @@
 * Front-end [Vue Js](https://vuejs.org) e [Pinia](https://pinia.vuejs.org)
 
 ## Status
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [x] Tarefa 1
+- [ ] Tarefa 2
+- [ ] Tarefa 3 :tada:
 
 ## Desenvolvedor
  
