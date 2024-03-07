@@ -7,9 +7,9 @@
   <img src="https://skillicons.dev/icons?i=git,laravel,vuejs,pinia" />
 
 ## Status
-- [x] Tarefa 1
-- [ ] Tarefa 2
-- [ ] Tarefa 3 :tada:
+- :white_check_mark: Tarefa 1
+- :black_square_button: Tarefa 2
+- :black_square_button: Tarefa 3 :tada:
 
 ## Desenvolvedor
  
