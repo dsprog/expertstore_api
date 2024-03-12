@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
+use App\Http\Resources\ProductCollection;
+use App\Http\Resources\ProductResource;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
@@ -10,7 +12,7 @@ class ProductController extends Controller
 {
     public function index(Product $product)
     {
-        return $product->all();
+        return new ProductCollection($product->paginate(5));
     }
 
     public function store(Request $request, Product $product)
@@ -28,7 +30,7 @@ class ProductController extends Controller
         // mesmo metodo acima só que simplificado
         // return $product->load('categories');
         // produto e categorias direto do db
-        return $product;
+        return new ProductResource($product->load('categories'));
     }
 
     public function update(Request $request, $product)
