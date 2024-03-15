@@ -1,8 +1,10 @@
 <?php
 
-use App\Models\Category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\API\AuthController;
+use App\Http\Controllers\API\ProductCategoryController;
+use App\Http\Controllers\API\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,16 +16,23 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
+/*
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+*/
+Route::apiResource('products', ProductController::class)
+    ->only(["index", "show"]);
+Route::apiResource('products.categories', ProductCategoryController::class)->only("index");
 
-Route::apiResource('products', \App\Http\Controllers\API\ProductController::class);
-Route::apiResource(
-    'products.categories',
-    \App\Http\Controllers\API\ProductCategoryController::class
-    )->only("index");
+
+// lavada09@example.net | password
+Route::post('login', [AuthController::class, 'login']);
+Route::post('logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');
+
+Route::apiResource('products', ProductController::class)
+    ->only(['store', 'update', 'destroy'])
+    ->middleware('auth:sanctum');
 
 
 /*
