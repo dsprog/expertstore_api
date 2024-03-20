@@ -14,7 +14,7 @@ class Product extends Model
 
     protected $fillable = ['name', 'price'];
 
-    //protected $appends = ['price_float'];
+    protected $appends = ['price_float'];
 
     protected $casts = [
         'created_at' => 'date:d/m/Y'
@@ -32,6 +32,7 @@ class Product extends Model
         return $this->belongsToMany(Category::class);
     }
 
+/*
     public function price(): Attribute
     {
         return new Attribute(
@@ -39,7 +40,6 @@ class Product extends Model
             fn($price) => $price * 100
         );
     }
-/*
     protected function serializeDate(DateTimeInterface $date)
     {
         return $date->format("d/m/Y");
